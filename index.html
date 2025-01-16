@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de segurança da informação</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="cabeçario">
+    <div class="menu">
+      <nav class="skew-menu">
+        <ul>
+          <li><a class="active" href="#conteudo">RESUMO</a></li>
+          <li><a href="#como">PILARES</a></li>
+          <li><a href="#onde">TERMOS</a></li>
+          <li><a href="#et">ATRATIVOS</a></li>
+          <li><a href="#rodape">FEITO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div><br>
+
+  <div id="conteudo" class="principal">
+    <h1>Página de <div id="nome"> Segurança da Iformação</div>
+    </h1>
+    <div class="subtitulo">
+      <h2> <img src="https://mv.com.br/storage/blog/1751152022070862c898c32f699.png" alt="Descrição da Imagem"width="350px"height="190px">
+      </h2>
+    </div>
+    <button class="planos">O termo é usado para se referir à defesa de dados e à prática que assegura que informações sigilosas possam ser acessadas somente por aqueles a quem estas se referem (em outras palavras, seus responsáveis de direito).
+
+</button>
+  </div>
+
+  <div id="como" class="segundo">
+    <div class="imagem"></div>
+    <h1>Pilares da<div id="nome"> SI?</div>
+    </h1>
+    <div class="explicação">
+  <h2>
+    <ul>
+      <li> Confidencialidade</li>
+      <li> Integridade</li>
+      <li> Disponibilidade</li>
+      <li> Autenticidade</li>
+      <li> Legalidade</li>
+    </ul>
+  </h2>
+</div>
+  </div>
+
+  <div id="onde" class="vc">
+    <h1>Termos de SI?</h1>
+<div class="cont">
+  <div class="pq">
+    <div class="termo">
+      <p><strong>Hacker:</strong> É uma pessoa que utiliza suas habilidades técnicas para explorar sistemas, redes ou dispositivos com o objetivo de encontrar falhas de segurança. Ex: White hats (+), Black hats (-), Gray hats (+-).</p>
+    </div>
+  </div>
+  <div class="pq">
+    <div class="termo">
+      <p><strong>Cracker:</strong> O cracker é uma figura semelhante ao hacker, mas enquanto o hacker pode atuar em diversas áreas, o cracker tem um objetivo mais específico de explorar falhas para obter acesso não autorizado ou causar danos.(-)</p>
+    </div>
+  </div>
+  <div class="pq">
+    <div class="termo">
+      <p><strong>Newbies:</strong> São pessoas que estão começando a aprender sobre o campo, geralmente sem experiência prévia.(-)</p>
+    </div>
+  </div>
+  <div class="pq">
+    <div class="termo">
+      <p><strong>Lammers:</strong> São pessoas que sabem algo, mas utilizam ferramentas de outras pessoas.(-)</p>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+
+  <div id="et" class="avaliação">
+    <h3>ATRATIVOS PARA HACKEAREM</h3>
+    <section class="cards">
+      <div class="card">
+        <img class="user"
+        <h3>COMPUTADORES PESSOAIS</h3>
+        <div class="stars">
+          <p>Atrativos:<br> grande quantidade de dados armazenados.Podendo assim acessar qualquer dado.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="user"
+        <h3>Emulador(PC)</h3>
+        <div class="stars">
+          <p>Sistema Operacional: Windows 7/8/10 (64 bits)<br>
+
+          Processador: Intel ou AMD Multi-Core Processor com suporte a virtualização ativada no BIOS.</p>
+        
+        <p>Placa Gráfica: Intel HD Graphics 4000 ou superior.</p>
+      </div></div>
+  </div>
+  </section>
+  <DIV class="DUV">
+    
+  </DIV>
+
+
+  <div id="rodape"><footer>
+    <p>&copy; 2025 CONTEUDO DE SEGURANÇA DA INFORMAÇÃO<br><br> </p>
+  </footer>
+  
+  <script>
+    const toggleButtons = document.querySelectorAll('.toggle-button');
+
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.previousElementSibling;
+                if (answer.style.display === 'none' || answer.style.display === '') {
+                    answer.style.display = 'block';
+                    button.textContent = '-';
+                } else {
+                    answer.style.display = 'none';
+                    button.textContent = '+';
+                }
+            });
+        });
+  </script>
+
+
+</body>
+
+</html>
